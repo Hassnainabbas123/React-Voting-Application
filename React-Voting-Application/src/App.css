@@ -1,0 +1,159 @@
+/* Container for the login page */
+.login-container,
+.connected-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #e0f7fa;
+  /* Light teal background for a fresh look */
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+  border-radius: 8px;
+  /* Rounded corners for a modern look */
+}
+
+/* Welcome message styling */
+.welcome-message,
+.connected-header {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #00796b;
+  /* Dark teal for better readability */
+}
+
+/* Button styling for login and connected pages */
+.login-button,
+.connected-button {
+  background-color: #ff7043;
+  /* Orange color */
+  color: #fff;
+  /* White text */
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /* Added transition for transform */
+  margin-bottom: 1rem;
+  /* Margin for spacing */
+}
+
+/* Hover effect for buttons */
+.login-button:hover,
+.connected-button:hover {
+  background-color: #f4511e;
+  /* Darker orange on hover */
+  transform: translateY(-2px);
+  /* Subtle lift effect on hover */
+}
+
+/* Styling for the connected account information */
+.connected-account,
+.connected-contract-address {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #004d40;
+  /* Dark teal for less prominence */
+}
+
+/* Table styling for candidates */
+.candidates-table {
+  border-collapse: collapse;
+  width: 80%;
+  /* Increased width for better content display */
+  text-align: center;
+  margin-top: 2rem;
+  /* Margin for spacing */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+  border-radius: 8px;
+  /* Rounded corners for a modern look */
+  overflow: hidden;
+  /* Ensures the border radius is applied correctly */
+}
+
+/* Table header styling */
+.candidates-table th,
+.candidates-table td {
+  padding: 12px;
+  /* Increased padding for better spacing */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Table header background color */
+.candidates-table th {
+  background-color: #b2ebf2;
+  /* Light teal background for table headers */
+  font-weight: 600;
+  /* Bold text for headers */
+}
+
+/* Table row hover effect */
+.candidates-table tr:hover {
+  background-color: #e0f2f1;
+  /* Light grey-teal on row hover */
+}
+
+/* Input field styling */
+input[type=number] {
+  padding: 12px;
+  /* Increased padding for better touch area */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 100%;
+  /* Full width for better responsiveness */
+  transition: border-color 0.3s ease;
+  /* Transition for border color */
+}
+
+/* Input field focus effect */
+input[type=number]:focus {
+  border-color: #ff7043;
+  /* Border color change to orange on focus */
+  outline: none;
+  /* Remove default outline */
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('./Components/assets/voting_login.jpeg') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.welcome-message {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  background: rgba(255, 255, 255, 0.8);
+  /* Add a semi-transparent background for readability */
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.login-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0069d9;
+}
